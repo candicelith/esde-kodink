@@ -72,6 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     boomBtn.addEventListener('click', () => {
         launchConfetti();
-        playPop(previewBody);
+        // playPop(previewBody);
     });
 });
