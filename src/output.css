@@ -1609,6 +1609,9 @@
   .overflow-y-auto {
     overflow-y: auto;
   }
+  .overflow-y-hidden {
+    overflow-y: hidden;
+  }
   .rounded-4xl {
     border-radius: var(--radius-4xl);
   }
