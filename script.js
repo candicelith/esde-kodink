@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const imageSrc = {
-        skyBlue: 'https://i.pinimg.com/736x/62/43/ae/6243ae546f4484f387c69724e3f84271.jpg',
-        lavender: 'https://placehold.co/176x176/a78bfa/ffffff?text=Lavender',
+        cat: 'https://i.pinimg.com/736x/62/43/ae/6243ae546f4484f387c69724e3f84271.jpg',
+        rabbit: 'https://i.pinimg.com/736x/2a/0d/b7/2a0db722fbd6b47b616c6887bd08e40e.jpg',
         hotPink: 'https://placehold.co/176x176/ec4899/ffffff?text=Hot+Pink',
         orange: 'https://placehold.co/176x176/f97316/ffffff?text=Orange',
     };
