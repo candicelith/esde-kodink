@@ -41,6 +41,13 @@ document.addEventListener('DOMContentLoaded', () => {
         orange: 'bg-orange-400',
     };
 
+    const headingColorClasses = {
+        skyBlue: 'text-sky-900',
+        lavender: 'text-violet-900',
+        hotPink: 'text-pink-900',
+        orange: 'text-orange-900',
+    };
+
     const headingText = {
         halo: 'Halo!',
         selamatDatang: 'Selamat Datang',
@@ -48,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const imageSrc = {
-        skyBlue: 'https://placehold.co/176x176/38bdf8/ffffff?text=Sky+Blue',
+        skyBlue: 'https://i.pinimg.com/736x/62/43/ae/6243ae546f4484f387c69724e3f84271.jpg',
         lavender: 'https://placehold.co/176x176/a78bfa/ffffff?text=Lavender',
         hotPink: 'https://placehold.co/176x176/ec4899/ffffff?text=Hot+Pink',
         orange: 'https://placehold.co/176x176/f97316/ffffff?text=Orange',
@@ -57,7 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
     bgColorSelect.addEventListener('change', () => {
         previewBody.classList.remove(...Object.values(bgColorClasses));
         previewBody.classList.add(bgColorClasses[bgColorSelect.value]);
+        previewHeading.classList.remove('text-blue-900', ...Object.values(headingColorClasses));
+        previewHeading.classList.add(headingColorClasses[bgColorSelect.value]);
         playPop(previewBody);
+        playPop(previewHeading);
     });
 
     headingSelect.addEventListener('change', () => {
