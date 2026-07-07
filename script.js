@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageSrc = {
         cat: 'https://i.pinimg.com/736x/62/43/ae/6243ae546f4484f387c69724e3f84271.jpg',
         rabbit: 'https://i.pinimg.com/736x/2a/0d/b7/2a0db722fbd6b47b616c6887bd08e40e.jpg',
-        hotPink: 'https://placehold.co/176x176/ec4899/ffffff?text=Hot+Pink',
-        orange: 'https://placehold.co/176x176/f97316/ffffff?text=Orange',
+        fox: 'https://i.pinimg.com/736x/66/13/42/661342b9c998999141cc1fdc0c15ed2d.jpg',
+        owl: 'https://i.pinimg.com/736x/a9/32/98/a932982700785bea98e7b3bae4cdab4f.jpg',
     };
 
     bgColorSelect.addEventListener('change', () => {
