@@ -1528,6 +1528,9 @@
       margin-inline-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
+  .overflow-auto {
+    overflow: auto;
+  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -2645,6 +2648,7 @@
 }
 .code-scroll::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 .code-scroll::-webkit-scrollbar-track {
   background: transparent;
