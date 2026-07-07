@@ -1444,6 +1444,9 @@
   .animate-pop {
     animation: var(--animate-pop);
   }
+  .animate-pulse {
+    animation: var(--animate-pulse);
+  }
   .animate-wiggle {
     animation: var(--animate-wiggle);
   }
@@ -1652,9 +1655,6 @@
       stroke: var(--color-default) !important;
     }
   }
-  .border-blue-500 {
-    border-color: var(--color-blue-500);
-  }
   .border-brand {
     border-color: var(--color-brand);
   }
@@ -1666,6 +1666,9 @@
   }
   .border-gray-300 {
     border-color: var(--color-gray-300);
+  }
+  .border-indigo-100 {
+    border-color: var(--color-indigo-100);
   }
   .border-transparent {
     border-color: transparent;
@@ -1712,9 +1715,6 @@
   }
   .bg-blue-400 {
     background-color: var(--color-blue-400);
-  }
-  .bg-blue-600 {
-    background-color: var(--color-blue-600);
   }
   .bg-blue-700 {
     background-color: var(--color-blue-700);
@@ -2285,6 +2285,16 @@
   .placeholder\:text-body {
     &::placeholder {
       color: var(--color-body);
+    }
+  }
+  .hover\:scale-105 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 105%;
+        --tw-scale-y: 105%;
+        --tw-scale-z: 105%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
     }
   }
   .hover\:scale-110 {
